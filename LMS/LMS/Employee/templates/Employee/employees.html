@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+        <h2>List of Employees</h2>
+        
+        <table id="empTable" border="1" style="width:100%">
+            <thead>
+                <td>
+                    <B>Employee Name</B>
+                </td>
+                <td>
+                    <B>Employee ID</B>
+                </td>
+                <td>
+                    <B>Employee Manager</B>
+                </td>
+            </thead>
+            <tbody>
+            {% for emp in employees %}
+                <tr>
+                    <td>{{emp.name}}</td>
+                    <td>{{emp.emp_id}}</td>
+                    <td>{{emp.lm_id}}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+{% endblock %}
