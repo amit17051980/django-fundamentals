@@ -1,10 +1,9 @@
-from Employee.models import Employee, EmployeeQuerySet
+from Employee.models import Employee
 from django.shortcuts import render
 
 
 # Create your views here.
 def welcome(request):
-    employees = Employee.objects.zero_manager()
     return render(request, "base.html")
 
 
