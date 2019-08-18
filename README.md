@@ -1,1 +1,1 @@
-# django-fundamentals
+# Django Fundamentals
