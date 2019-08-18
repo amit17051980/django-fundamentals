@@ -1,5 +1,5 @@
-from django.shortcuts import render
 from Employee.models import Employee, EmployeeQuerySet
+from django.shortcuts import render
 
 
 # Create your views here.
