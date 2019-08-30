@@ -39,6 +39,8 @@ sudo apt-get install python3-venv
 
 sudo apt install xmlsec1
 
+sudo apt-get install graphviz
+
 ### Install LiClipse for Linux 64 bit
 
 Download Link :
