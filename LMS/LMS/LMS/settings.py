@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_saml2_auth',
+    'django_extensions',
     'Employee',
 ]
 
