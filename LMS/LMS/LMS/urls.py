@@ -25,6 +25,7 @@ urlpatterns = [
     url(r'^accounts/logout/$', django_saml2_auth.views.signout),
     url(r'^admin/logout/$', django_saml2_auth.views.signout),
     
+    path('admin/doc/', include('django.contrib.admindocs.urls')), 
     path('admin/', admin.site.urls),
     url('employee/', include('Employee.urls')),
 ]

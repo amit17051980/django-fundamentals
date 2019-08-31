@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_saml2_auth',
     'django_extensions',
+    'django.contrib.admindocs',
     'Employee',
 ]
 
