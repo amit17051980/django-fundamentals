@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+    Invitation Form
+{% endblock %}
+
+{% block content %}
+    <form method="post" action="{% url 'employee_new_invitation' %}" >
+        {{form}}
+        {% csrf_token %}
+        <button type="submit">Send Invitation</button>
+    </form>
+{% endblock %}
