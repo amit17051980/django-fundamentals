@@ -13,6 +13,7 @@ django-rest-auth==0.9.5
 django-saml2-auth==2.2.1
 djangorestframework==3.10.2
 djangorestframework-jwt==1.11.0
+docutils==0.15.2
 graphviz==0.12
 idna==2.8
 isodate==0.6.0

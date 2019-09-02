@@ -22,9 +22,10 @@ urlpatterns = [
     url(r'^saml2_auth/', include('django_saml2_auth.urls')),
     url(r'^accounts/login/$', django_saml2_auth.views.signin),
     url(r'^admin/login/$', django_saml2_auth.views.signin),
-    url(r'^accounts/logout/$', django_saml2_auth.views.signout),
+    url(r'^accounts/logout/$', django_saml2_auth.views.signout, name='lms_logout'),
     url(r'^admin/logout/$', django_saml2_auth.views.signout),
     
+    path('admin/doc/', include('django.contrib.admindocs.urls')), 
     path('admin/', admin.site.urls),
     url('employee/', include('Employee.urls')),
 ]

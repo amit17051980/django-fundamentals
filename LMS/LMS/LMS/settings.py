@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_saml2_auth',
     'django_extensions',
+    'django.contrib.admindocs',
     'Employee',
 ]
 
@@ -126,7 +127,7 @@ SAML2_AUTH = {
     'METADATA_AUTO_CONF_URL': 'https://dev-354610.oktapreview.com/app/exkn3xekyoZuK8xcF0h7/sso/saml/metadata',
 
     # Optional settings below
-    'DEFAULT_NEXT_URL': '/',  # Custom target redirect URL after the user get logged in. Default to /admin if not set. This setting will be overwritten if you have parameter ?next= specificed in the login URL.
+    'DEFAULT_NEXT_URL': '/employee',  # Custom target redirect URL after the user get logged in. Default to /admin if not set. This setting will be overwritten if you have parameter ?next= specificed in the login URL.
     'CREATE_USER': 'TRUE',  # Create a new Django user when a new user logs in. Defaults to True.
     'NEW_USER_PROFILE': {
         'USER_GROUPS': [],  # The default group name when a new user logs in
