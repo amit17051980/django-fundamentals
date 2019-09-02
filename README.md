@@ -4,42 +4,18 @@ Django Fundamentals
 This repository has been created to explore the Django framework, and at the
 same time sharing the work done with other community members.
 
-Prerequisite [Wndows]
----------------------
+Work Instructions [Linux (Ubuntu-18)]
+-------------------------------------
 
-### Install Python for Windows 64 bit
+Although this document is referring Linux only, it is also possible to run this
+on windows by searching equivalent dependencies. I have found it a bit difficult
+to work on Windows due to lack of support when you hit issues with dependencies,
+e.g., xmlsec1.exe and associated DLLs.
 
-Download Link : <https://www.python.org/ftp/python/3.7.4/python-3.7.4.exe>
+### Install Python3 and Dependencies 
 
-### Install LiClipse for Windows 64 bit
-
-Download Link :
-<https://www.mediafire.com/file/b4sr1brrk51wzl0/liclipse_5.2.4_win32.x86_64.exe>
-
-### Create Python Virtual Environment
-
-Use Instructions : <https://docs.python.org/3/library/venv.html>
-
-### Setup LiClipse for Virtual Environment
-
-Use Instructions : <https://www.pydev.org/manual_101_interpreter.html>
-
-Prerequisite [Ubuntu]
----------------------
-
-### Install Python3
-
-sudo apt update
-
-sudo apt install python3.7
-
-sudo apt install python3-pip
-
-sudo apt-get install python3-venv
-
-sudo apt install xmlsec1
-
-sudo apt-get install graphviz
+Github Path :
+<https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/Setup-Ubuntu-Pkg.sh>
 
 ### Install LiClipse for Linux 64 bit
 
@@ -52,16 +28,26 @@ Instructions : <http://www.liclipse.com/download.html#linux>
 
 Use Instructions : <https://docs.python.org/3/library/venv.html>
 
-mkdir Python_Virtual_Envs
+>   mkdir Python_Virtual_Envs
 
-cd Python_Virtual_Envs/
+>   cd Python_Virtual_Envs/
 
-mkdir django-fundamentals
+>   mkdir django-fundamentals
 
-cd django-fundamentals/
+>   cd django-fundamentals/
 
-python3 -m venv .
+>   python3 -m venv .
 
 ### Setup LiClipse for Virtual Environment
 
-Use Instructions : <https://www.pydev.org/manual_101_interpreter.html>
+Use Instructions: <https://www.pydev.org/manual_101_interpreter.html>
+
+### Install PIP Dependencies
+
+1.  Activate the Virtual Environment (CMD) or use Windows Preferences
+    Interpreters Python (manage with pip)
+
+2.  Run command below:
+
+>   pip install -r
+>   <https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/requirements.txt>
