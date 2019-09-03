@@ -49,5 +49,4 @@ Use Instructions: <https://www.pydev.org/manual_101_interpreter.html>
 
 2.  Run command below:
 
->   pip install -r
->   <https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/requirements.txt>
+>   pip install -r <https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/requirements.txt>
