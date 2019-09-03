@@ -65,6 +65,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django_settings_export.settings_export',
             ],
         },
     },
@@ -151,3 +152,8 @@ SAML2_AUTH = {
     'USE_JWT': False,  # Set this to True if you are running a Single Page Application (SPA) with Django Rest Framework (DRF), and are using JWT authentication to authorize client users
     'FRONTEND_URL': '',  # Redirect URL for the client if you are using JWT auth with DRF. See explanation below
 }
+
+OKTA_REDIRECT_URL = 'https://dev-354610.oktapreview.com/login/default?fromURI=https://dev-354610.oktapreview.com/app/hcukdevelopment_lms_1/exkn3xekyoZuK8xcF0h7/sso/saml'
+SETTINGS_EXPORT = [
+    'OKTA_REDIRECT_URL',
+]

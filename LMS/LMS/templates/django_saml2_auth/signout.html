@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="refresh" content="3;url=https://dev-354610.oktapreview.com/login/default?fromURI=https://dev-354610.oktapreview.com/app/hcukdevelopment_lms_1/exkn3xekyoZuK8xcF0h7/sso/saml" />
+    <meta http-equiv="refresh" content="3;url={{ settings.OKTA_REDIRECT_URL }}" />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css">
     <style type="text/css">
     body {
@@ -45,7 +45,7 @@
 <div>
     <h1>LMS Logout Page</h1>
     <p>.</p>
-    <p>You are being signed out from <a href="https://dev-354610.oktapreview.com/app/hcukdevelopment_lms_1/exkn3xekyoZuK8xcF0h7/sso/saml">LMS Application</a></p>
+    <p>You are being signed out from <a href="{{ settings.OKTA_REDIRECT_URL }}">LMS Application</a></p>
 </div>
 </body>
 </html>
