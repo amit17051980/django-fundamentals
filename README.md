@@ -29,13 +29,9 @@ Instructions : <http://www.liclipse.com/download.html#linux>
 Use Instructions : <https://docs.python.org/3/library/venv.html>
 
 >   mkdir Python_Virtual_Envs
-
 >   cd Python_Virtual_Envs/
-
 >   mkdir django-fundamentals
-
 >   cd django-fundamentals/
-
 >   python3 -m venv .
 
 ### Setup LiClipse for Virtual Environment
@@ -49,5 +45,4 @@ Use Instructions: <https://www.pydev.org/manual_101_interpreter.html>
 
 2.  Run command below:
 
->   pip install -r
->   <https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/requirements.txt>
+>   pip install -r <https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/requirements.txt>
