@@ -29,9 +29,13 @@ Instructions : <http://www.liclipse.com/download.html#linux>
 Use Instructions : <https://docs.python.org/3/library/venv.html>
 
 >   mkdir Python_Virtual_Envs
+
 >   cd Python_Virtual_Envs/
+
 >   mkdir django-fundamentals
+
 >   cd django-fundamentals/
+
 >   python3 -m venv .
 
 ### Setup LiClipse for Virtual Environment
