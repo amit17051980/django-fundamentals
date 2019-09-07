@@ -7,7 +7,7 @@ from unittest.util import _MAX_LENGTH
 class EmployeeQuerySet(models.QuerySet):
 
     def zero_manager(self):
-        return self.filter(Q(emp_id='002') | Q(lm_id='001'))
+        return self.filter(Q(lm_id='001') | Q(lm_id='002'))
     
 
 # Create your models here.
