@@ -53,9 +53,14 @@ Use Instructions: <https://www.pydev.org/manual_101_interpreter.html>
 
 ### Create PostgresSQL DB
 
-postgres=# CREATE DATABASE lms_db;
-postgres=# CREATE USER lmsadmin with password 'password';
-postgres=# ALTER ROLE lmsadmin SET client_encoding TO 'utf8';
-postgres=# ALTER ROLE lmsadmin SET default_transaction_isolation TO 'read committed';
-postgres=# ALTER ROLE lmsadmin SET timezone TO 'UTC';
-postgres=# GRANT ALL PRIVILEGES ON DATABASE lms_db to lmsadmin;
+>   postgres=# CREATE DATABASE lms_db;
+
+>   postgres=# CREATE USER lmsadmin with password 'password';
+
+>   postgres=# ALTER ROLE lmsadmin SET client_encoding TO 'utf8';
+
+>   postgres=# ALTER ROLE lmsadmin SET default_transaction_isolation TO 'read committed';
+
+>   postgres=# ALTER ROLE lmsadmin SET timezone TO 'UTC';
+
+>   postgres=# GRANT ALL PRIVILEGES ON DATABASE lms_db to lmsadmin;
