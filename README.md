@@ -51,7 +51,7 @@ Use Instructions: <https://www.pydev.org/manual_101_interpreter.html>
 
 >   pip install -r <https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/requirements.txt>
 
-### Create PostgresSQL DB
+### Create PostgresSQL DB (If not using SQLite : Please review setting.py for DB)
 
 >   postgres=# CREATE DATABASE lms_db;
 
