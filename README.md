@@ -50,3 +50,17 @@ Use Instructions: <https://www.pydev.org/manual_101_interpreter.html>
 2.  Run command below:
 
 >   pip install -r <https://github.com/amit17051980/django-fundamentals/blob/development/LMS/LMS/requirements.txt>
+
+### Create PostgresSQL DB (If not using SQLite : Please review setting.py for DB)
+
+>   postgres=# CREATE DATABASE lms_db;
+
+>   postgres=# CREATE USER lmsadmin with password 'password';
+
+>   postgres=# ALTER ROLE lmsadmin SET client_encoding TO 'utf8';
+
+>   postgres=# ALTER ROLE lmsadmin SET default_transaction_isolation TO 'read committed';
+
+>   postgres=# ALTER ROLE lmsadmin SET timezone TO 'UTC';
+
+>   postgres=# GRANT ALL PRIVILEGES ON DATABASE lms_db to lmsadmin;
