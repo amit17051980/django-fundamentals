@@ -19,7 +19,7 @@ docutils==0.15.2
 graphviz==0.12
 idna==2.8
 isodate==0.6.0
-lxml==4.4.1
+lxml==4.6.2
 pkg-resources==0.0.0
 pkgconfig==1.5.1
 psycopg2==2.8.3
