@@ -13,7 +13,7 @@ django-rest-auth==0.9.5
 django-revproxy==0.9.15
 django-saml2-auth==2.2.1
 django-settings-export==1.2.1
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 docutils==0.15.2
 graphviz==0.12
